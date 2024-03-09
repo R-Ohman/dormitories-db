@@ -1,0 +1,442 @@
+-- Mieszkancy
+INSERT INTO Mieszkancy (NumerKontaktowy, Imie, Nazwisko) VALUES
+    ('600228000', 'Ruslan', 'Rabadanov'),
+    ('600229001', 'Imieslaw', 'Nazwiskowy'),
+    ('600230002', 'Dwayne', 'Douglas Johnson'),
+    ('600228003', 'Anna-Maria', 'Sieklucka'),
+    ('600229004', 'Mary Anne', 'Hobbs'),
+    ('600228005', 'John', 'Smith-Jones'),
+    ('600230006', 'Anna', 'Wiśniewska'),
+    ('600228007', 'Krzysztof', 'Wójcik'),
+    ('600229008', 'Katarzyna', 'Kowalczyk'),
+    ('600230009', 'Tomasz', 'Jankowski'),
+    ('600228010', 'Joanna', 'Mazur'),
+    ('600229011', 'Paweł', 'Kwiatkowski'),
+    ('600230012', 'Magdalena', 'Krawczyk'),
+    ('600228013', 'Marcin', 'Nowakowski'),
+    ('600229014', 'Natalia', 'Wójcicka'),
+    ('600230015', 'Adam', 'Kaczmarek'),
+    ('600228016', 'Monika', 'Wojciechowska'),
+    ('600229017', 'Rafał', 'Kamiński'),
+    ('600230018', 'Kamila', 'Lis'),
+    ('600228019', 'Michał', 'Zając'),
+    ('600229020', 'Alicja', 'Szymańska'),
+    ('600230021', 'Grzegorz', 'Wojciechowski'),
+    ('600238022', 'Izabela', 'Pawlak'),
+    ('600229023', 'Krzysztof', 'Mazur'),
+    ('600230024', 'Beata', 'Krajewska'),
+    ('600228025', 'Wojciech', 'Kaczmarek'),
+    ('600229026', 'Kamila', 'Czarnecka'),
+    ('600230027', 'Dariusz', 'Piotrowski'),
+    ('600228028', 'Monika', 'Grabowska'),
+    ('600229029', 'Marek', 'Zając'),
+    ('600230030', 'Aleksandra', 'Kowalewska'),
+    ('600228031', 'Artur', 'Pawłowski'),
+    ('600229032', 'Elżbieta', 'Witkowska'),
+    ('600230033', 'Szymon', 'Walczak'),
+    ('600228034', 'Patrycja', 'Rutkowska'),
+    ('600229035', 'Rafał', 'Michalak'),
+    ('600230036', 'Karolina', 'Sikora'),
+    ('600228037', 'Jacek', 'Olszewski'),
+    ('600229038', 'Dominika', 'Sobczyk'),
+    ('600230039', 'Łukasz', 'Baranowski'),
+    ('600228040', 'Weronika', 'Majewska');
+
+
+-- Akademiki
+INSERT INTO Akademiki (NumerDS, Adres, Telefon, Standard) VALUES
+    (1, 'ul. Traugutta 115 80-226 Gdańsk-Wrzeszcz', '583486801', 'Dom Studencki nr 1 to akademik położony na skraju trójmiejskiego parku krajobrazowego. Dysponujemy tu  265 miejscami w 1 i 2 osobowych pokojach wraz z łazienkami (najczęściej jedna łazienka przypada dla 2 pokoi).'),
+    (2, 'ul. Traugutta 115b 80-226 Gdańsk-Wrzeszcz', '583482602', 'Dom Studencki nr 2 to akademik położony na skraju trójmiejskiego parku krajobrazowego. Jest to 10 – cio piętrowy  budynek. Dysponujemy tu 330 miejscami w jedno i dwuosobowych pokojach wraz z toaletami (jedna toaleta przypada na dwa pokoje). Na każdym piętrze znajdują się pomieszczenia ze wspólnymi prysznicami.'),
+    (3, 'ul. Do Studzienki 32 80-227 Gdańsk-Wrzeszcz', '583482603', 'Dom Studencki nr 3 to akademik położony najbliżej Campusu Politechniki Gdańskiej. Jest to 3 piętrowy budynek. Dysponujemy tu 151 miejscami w 1 i 2 osobowych pokojach z łazienkami.'),
+    (4, 'ul. Do Studzienki 61 80-227 Gdańsk-Wrzeszcz', '583482604', 'Dom Studencki nr 4 dysponuje 175 miejscami w 1 i 2 osobowych pokojach wraz z łazienkami (najczęściej jedna łazienka przypada dla 2 pokoi).'),
+    (5, 'ul. Wyspiańskiego 7 80-434 Gdańsk-Wrzeszcz', '583482605', 'Dom Studencki nr 5 to akademik położony w pobliżu centrum Gdańska Wrzeszcza.  Dysponujemy tu  252 miejscami w 1 i 2 osobowych pokojach wraz z łazienkami (najczęściej jedna łazienka przypada dla 2 pokoi).'),
+    (6, 'ul. Wyspiańskiego 9 80-432 Gdańsk-Wrzeszcz', '583482606', 'Dom Studencki nr 6 to akademik położony w pobliżu centrum Gdańska Wrzeszcza.  Dysponujemy tu  206 miejscami w 1 i 2 osobowych pokojach wraz z łazienkami (najczęściej jedna łazienka przypada dla 2 pokoi).'),
+    (7, 'ul. Leczkowa  18 80-432 Gdańsk-Wrzeszcz', '583482607', 'Dom Studencki nr 7 to akademik położony w pobliżu centrum Gdańska Wrzeszcza. Dysponujemy tu  176 miejscami w 1 i 2 osobowych pokojach.'),
+    (8, 'ul. Wyspiańskiego 5a 80-434 Gdańsk-Wrzeszcz', '583482608', 'Budynek  DS 8  to nowoczesny, przyjazny osobom niepełnosprawnym 10-cio piętrowy wieżowiec położony w  centrum dzielnicy Gdańska Wrzeszcza. Budynek przeznaczony dla 270 mieszkańców. Na każdym piętrze usytuowanych jest 9 segmentów, w każdym z nich znajduje się jedno i dwuosobowy pokój, przedpokój z lodówką oraz łazienka.'),
+    (9, 'ul. Wyspiańskiego 5 80-434 Gdańsk-Wrzeszcz', '583482609', NULL),
+    (10, 'ul. Wyspiańskiego 7 80-434 Gdańsk-Wrzeszcz', '583482610', 'Dom Studencki nr 10 to akademik położony w  Gdańsku Wrzeszczu. Dysponujemy 144 miejscami w 1 i 2 osobowych pokojach. Na każdym piętrze znajdują się dwie łazienki ogólnodostępne.'),
+    (11, 'ul. Chodkiewicza 15 80-506 Gdańsk-Brzeźno', '583482611', 'Dom Studencki nr 11 położony jest w dzielnicy Brzeźno, w odległości 800 m od plaży. Dysponuje 160 miejscami noclegowymi. Przystosowany jest dla osób niepełnosprawnych. Ogrodzona posesja posiada 19 miejsc postojowych dla samochodów osobowych. Parking nie jest strzeżony.'),
+    (12, 'ul. Traugutta 115 A 80-226 Gdańsk-Wrzeszcz', '583482612', 'Dom Studencki nr 12 to akademik położony na skraju trójmiejskiego parku krajobrazowego. Jest to obiekt o najwyższym standardzie. Akademik dysponuje całorocznymi pokojami gościnnymi.');
+
+
+-- Faktury
+INSERT INTO Faktury (Numer, Data, Wysokosc, NumerKontaktowy) VALUES
+    ('FV040/111/12/2023', '2023-12-01', 540.00, '600228000'),
+    ('FV040/111/11/2023', '2023-11-01', 540.00, '600228000'),
+    ('FV040/111/10/2023', '2023-10-01', 540.00, '600228000'),
+    ('FS041/001/10/2023', '2023-10-01', 22.50, '600228000'),
+    ('FV040/112/12/2023', '2023-12-01', 610.00, '600229001'),
+    ('FV040/112/11/2023', '2023-11-01', 610.00, '600229001'),
+    ('FV040/112/10/2023', '2023-10-01', 610.00, '600229001'),
+    ('FS041/002/10/2023', '2023-10-01', 22.50, '600229001'),
+    ('FV040/113/12/2023', '2023-12-02', 720.00, '600230002'),
+    ('FS041/003/10/2023', '2023-10-01', 22.50, '600230002'),
+    ('FV040/114/12/2023', '2023-12-02', 450.00, '600228003'),
+    ('FV040/114/11/2023', '2023-11-01', 450.00, '600228003'),
+    ('FV040/115/12/2023', '2023-12-03', 690.00, '600229004'),
+    ('FV040/116/12/2023', '2023-12-03', 320.00, '600228005'),
+    ('FV040/117/12/2023', '2023-12-04', 580.00, '600230006'),
+    ('FV040/118/12/2023', '2023-12-04', 550.00, '600228007'),
+    ('FV040/119/12/2023', '2023-12-05', 710.00, '600229008'),
+    ('FV040/120/12/2023', '2023-12-05', 420.00, '600230009'),
+    ('FV040/121/12/2023', '2023-12-06', 630.00, '600228010'),
+    ('FV040/122/12/2023', '2023-12-06', 780.00, '600229011'),
+    ('FV040/123/12/2023', '2023-12-07', 500.00, '600230012'),
+    ('FV040/124/12/2023', '2023-12-07', 480.00, '600228013'),
+    ('FV040/125/12/2023', '2023-12-08', 460.00, '600229014'),
+    ('FV040/126/12/2023', '2023-12-08', 660.00, '600230015'),
+    ('FV040/127/12/2023', '2023-12-09', 440.50, '600228016'),
+    ('FV040/128/12/2023', '2023-12-09', 800.00, '600229017'),
+    ('FV040/129/12/2023', '2023-12-10', 420.50, '600230018'),
+    ('FV040/130/12/2023', '2023-12-10', 420.50, '600228019'),
+    ('FV040/131/12/2023', '2023-12-11', 500.00, '600229020'),
+    ('FV040/132/12/2023', '2023-12-11', 600.00, '600230021');
+
+
+-- Studenci
+INSERT INTO Studenci (NumerIndeksu, NumerKontaktowy, DodatkowyNumerKontaktowy, Narodowosc, AdresZamieszkania)
+VALUES
+    (196634, '600228000', '515000228', 'Ukrainian', 'Soborna 1, ap.2, Mykolaiv 54003'),
+    (190142, '600229001', NULL, 'Polish', 'Jana Kilińskiego 4, m.5, 80-452 Gdańsk'),
+    (198765, '600230002', '515000230', 'American', '123 Main St, Apt 7, New York, NY 10001'),
+    (189876, '600228003', NULL, 'Polish', 'ul. Mickiewicza 15, Warszawa'),
+    (181234, '600229004', '515000229', 'British', '22 Baker Street, London W1U 3BW'),
+    (205678, '600228005', NULL, 'Polish', 'ul. Piękna 8, m.8, Kraków'),
+    (197890, '600230006', '515000231', 'Polish', 'Plac Wolności 1, m.2, Wrocław'),
+    (203456, '600228007', NULL, 'Polish', 'ul. Lecha 2, m.3, Poznań'),
+    (180123, '600229008', '515000233', 'Polish', 'ul. Nowa 10, Łódź'),
+    (198766, '600230009', '515000234', 'Polish', 'Rynek 5, m.6, Katowice'),
+    (195432, '600228010', NULL, 'Polish', 'ul. Słowiańska 3, Gdynia'),
+    (174321, '600229011', '515000235', 'Polish', 'ul. Wojska Polskiego 4, m.5, Szczecin'),
+    (202134, '600230012', '515000236', 'German', 'Hauptstraße 12, Berlin'),
+    (199876, '600228013', NULL, 'Polish', 'ul. Zwycięstwa 7, Białystok'),
+    (166543, '600229014', '515000237', 'Polish', 'ul. Mickiewicza 20, m.5, Lublin'),
+    (205432, '600230015', '515000238', 'Polish', 'Rynek 2, Rzeszów'),
+    (203214, '600228016', NULL, 'Polish', 'ul. Kościuszki 6, Bydgoszcz'),
+    (200987, '600229017', '515000239', 'Polish', 'Plac Grunwaldzki 1, m.2, Opole'),
+    (197654, '600230018', '515000240', 'Polish', 'ul. Piotrkowska 15, Łódź'),
+    (204321, '600228019', '515000241', 'Polish', 'ul. 3 Maja 10, m.11, Kraków'),
+    (204322, '600229020', '515000241', 'Polish', 'ul. 8 Maja 9, m.10, Kraków'),
+    (204323, '600230021', '515000241', 'Polish', 'ul. 11 Maja 12, m.12, Kraków');
+
+
+-- Aktywnosci
+INSERT INTO Aktywnosci (Nazwa, LiczbaPunktow) VALUES
+    ('Zarząd SSPG', 30),
+    ('Zarząd SDPG', 30),
+    ('Przewodniczący UKS, OKS, WKS, WRS', 20),
+    ('Rada Mieszkańców', 20),
+    ('Administrator SKOS', 16),
+    ('Administrator innych usług internetowych świadczonych na rzecz osiedla', 10),
+    ('Opiekun nad rzeczą lub pomieszczeniem w domu studenckim', 6),
+    ('Komisja wyborcza', 5),
+    ('Członkowie kół i organizacji studenckich na PG', 5),
+    ('Członkowie SUKW oraz SWKW', 5);
+
+
+-- Zajmowanie
+INSERT INTO Zajmowanie (ID_Aktywnosc, NumerIndeksu) VALUES
+    (1, 196634),
+    (9, 196634),
+    (2, 190142),
+    (3, 198765),
+    (4, 204323),
+    (9, 189876),
+    (5, 198766),
+    (7, 197890),
+    (9, 197890),
+    (8, 203456),
+    (9, 198766),
+    (1, 195432),
+    (7, 195432),
+    (3, 199876),
+    (9, 199876),
+    (4, 199876),
+    (7, 203214),
+    (8, 200987),
+    (9, 200987),
+    (9, 197654);
+
+
+-- RodzajePokojow
+INSERT INTO RodzajePokojow (RodzajPokoju)
+VALUES
+    ('1-os z własną łazienką'),
+    ('1-os z łazienką w segmencie'),
+    ('1-os z WC w segmencie'),
+    ('1-os bez łazienek'),
+    ('2-os z własną łazienką'),
+    ('2-os z łazienką w segmencie'),
+    ('2-os z WC w segmencie'),
+    ('2-os bez łazienek');
+
+
+-- Cenniki
+INSERT INTO Cenniki (ID_Rodzaju, NumerDS, Cena) VALUES
+    (1, 1, 610.00),
+    (1, 3, 610.00),
+    (1, 4, 610.00),
+    (1, 6, 610.00),
+    (1, 8, 610.00),
+    (1, 9, 610.00),
+    (1, 11, 610.00),
+    (2, 1, 590.00),
+    (2, 3, 590.00),
+    (2, 4, 590.00),
+    (2, 6, 590.00),
+    (2, 8, 590.00),
+    (2, 9, 590.00),
+    (2, 11, 590.00),
+    (5, 1, 540.00),
+    (5, 3, 540.00),
+    (5, 4, 540.00),
+    (5, 6, 540.00),
+    (5, 8, 540.00),
+    (5, 9, 540.00),
+    (5, 11, 540.00),
+    (6, 1, 510.00),
+    (6, 3, 510.00),
+    (6, 4, 510.00),
+    (6, 6, 510.00),
+    (6, 8, 510.00),
+    (6, 9, 510.00),
+    (6, 11, 510.00),
+    (3, 2, 520.00),
+    (7, 2, 460.00),
+    (2, 5, 610.00),
+    (1, 5, 630.00),
+    (6, 5, 540.00),
+    (5, 5, 570.00),
+    (4, 7, 440.00),
+    (8, 7, 390.00),
+    (2, 10, 520.00),
+    (1, 10, 550.00),
+    (6, 10, 460.00),
+    (5, 10, 500.00),
+    (2, 12, 630.00),
+    (1, 12, 650.00);
+
+
+-- Pokoje
+INSERT INTO Pokoje (NumerPokoju, NumerDS, ID_Rodzaju)
+VALUES
+    ('101', 1, 1),
+    ('102', 1, 2),
+    ('103', 1, 5),
+    ('201', 1, 1),
+    ('202', 1, 2),
+    ('203', 1, 5),
+
+    ('104', 2, 3),
+    ('105', 2, 3),
+    ('106', 2, 7),
+    ('204', 2, 3),
+    ('205', 2, 3),
+    ('206', 2, 7),
+
+    ('201', 3, 1),
+    ('202', 3, 2),
+    ('203', 3, 6),
+    ('301', 3, 1),
+    ('302', 3, 2),
+    ('303', 3, 6),
+
+    ('204', 4, 2),
+    ('205', 4, 5),
+    ('206', 4, 6),
+    ('304', 4, 2),
+    ('305', 4, 5),
+    ('306', 4, 6),
+
+    ('301', 5, 1),
+    ('302', 5, 1),
+    ('303', 5, 5),
+    ('401', 5, 1),
+    ('402', 5, 1),
+    ('403', 5, 5),
+
+    ('304A1', 6, 2),
+    ('304A2', 6, 2),
+    ('304B', 6, 5),
+    ('404A1', 6, 2),
+    ('404A2', 6, 2),
+    ('404B', 6, 5),
+
+    ('301', 7, 4),
+    ('302', 7, 8),
+    ('303', 7, 8),
+    ('401', 7, 4),
+    ('402', 7, 8),
+    ('403', 7, 8),
+
+    ('404', 8, 2),
+    ('405', 8, 5),
+    ('406', 8, 6),
+    ('504', 8, 2),
+    ('505', 8, 5),
+    ('506', 8, 6),
+
+    ('401', 9, 2),
+    ('402', 9, 6),
+    ('403', 9, 6),
+    ('501', 9, 2),
+    ('502', 9, 6),
+    ('503', 9, 6),
+
+    ('104', 10, 1),
+    ('204', 10, 1),
+    ('304', 10, 1),
+    ('404', 10, 1),
+    ('504', 10, 1),
+
+    ('505A', 12, 1),
+    ('505B', 12, 1),
+    ('506', 12, 2),
+    ('507', 12, 2),
+    ('508', 12, 2);
+
+
+-- Zakwaterowania
+INSERT INTO Zakwaterowania (DataOd, DataDo, NumerKontaktowy, NumerPokoju, NumerDS) VALUES
+    ('2023-10-01', '2024-06-30', '600228000', '101', 1),
+    ('2023-10-01', '2024-06-30', '600229001', '102', 1),
+    ('2023-10-01', '2024-06-30', '600230002', '103', 1),
+    ('2023-10-01', '2024-06-30', '600228003', '103', 1),
+
+    ('2023-10-01', '2024-06-30', '600230033', '201', 1),
+    ('2023-10-01', '2024-06-30', '600228034', '202', 1),
+    ('2023-10-01', '2024-06-30', '600229035', '203', 1),
+
+    ('2022-10-01', '2023-06-30', '600228003', '104', 2),
+    ('2023-10-01', '2024-06-30', '600229004', '105', 2),
+    ('2023-10-01', '2024-06-30', '600228005', '106', 2),
+    ('2023-10-01', '2024-06-30', '600230036', '204', 2),
+    ('2023-10-01', '2024-06-30', '600228037', '205', 2),
+    ('2023-10-01', '2024-06-30', '600229038', '206', 2),
+    ('2023-10-01', '2024-06-30', '600230006', '206', 2),
+    
+    ('2022-10-01', '2023-06-30', '600230006', '201', 3),
+    ('2023-10-01', '2024-06-30', '600228007', '202', 3),
+    ('2023-10-01', '2024-06-30', '600229008', '203', 3),
+    ('2023-10-01', '2024-06-30', '600230009', '203', 3),
+    ('2023-10-01', '2024-06-30', '600230039', '301', 3),
+    ('2023-10-01', '2024-06-30', '600228040', '302', 3),
+
+    ('2022-10-01', '2023-06-30', '600230009', '204', 4),
+    ('2023-10-01', '2024-06-30', '600228010', '205', 4),
+    ('2023-10-01', '2024-06-30', '600230012', '205', 4),
+    ('2023-10-01', '2024-06-30', '600229011', '206', 4),
+    ('2023-10-01', '2024-06-30', '600228013', '206', 4),
+
+    ('2022-10-01', '2023-06-30', '600230012', '301', 5),
+    ('2022-10-01', '2023-06-30', '600228013', '302', 5),
+    ('2023-10-01', '2024-06-30', '600229014', '303', 5),
+    ('2023-10-01', '2024-06-30', '600230015', '303', 5),
+
+    ('2022-10-01', '2023-06-30', '600230015', '304A1', 6),
+    ('2023-10-01', '2024-06-30', '600228016', '304A2', 6),
+    ('2023-10-01', '2024-06-30', '600229017', '304B', 6),
+
+    ('2023-10-01', '2024-06-30', '600230018', '401', 7),
+    ('2023-10-01', '2024-06-30', '600228019', '402', 7),
+    ('2023-10-01', '2024-06-30', '600230021', '402', 7),
+    ('2023-10-01', '2024-06-30', '600229020', '403', 7),
+
+    ('2022-10-01', '2023-06-30', '600230021', '404', 8),
+    ('2023-07-01', '2023-09-30', '600230021', '405', 8),
+    ('2023-10-01', '2024-06-30', '600238022', '405', 8),
+    ('2023-10-01', '2024-06-30', '600230024', '405', 8),
+    ('2023-10-01', '2024-06-30', '600229023', '406', 8),
+    ('2023-10-01', '2024-06-30', '600228025', '406', 8),
+
+    ('2022-10-01', '2023-06-30', '600230024', '501', 9),
+    ('2022-07-01', '2023-09-30', '600230024', '502', 9),
+    ('2022-10-01', '2023-06-30', '600228025', '502', 9),
+    ('2023-10-01', '2024-06-30', '600229026', '503', 9),
+
+    ('2021-10-01', '2022-06-30', '600230027', '104', 10),
+    ('2022-07-01', '2022-09-30', '600230027', '204', 10),
+    ('2022-10-01', '2023-06-30', '600230027', '304', 10),
+    ('2023-10-01', '2024-06-30', '600230027', '404', 10),
+
+    ('2022-10-01', '2023-06-30', '600228028', '505A', 12),
+    ('2023-10-01', '2024-06-30', '600228028', '505A', 12),
+    ('2023-10-01', '2024-06-30', '600229029', '505B', 12),
+    ('2023-10-01', '2024-06-30', '600230030', '506', 12),
+    ('2021-10-01', '2022-06-30', '600228031', '507', 12),
+    ('2023-10-01', '2024-06-30', '600228031', '507', 12),
+    ('2023-10-01', '2024-06-30', '600229032', '508', 12);
+
+
+-- Wydzialy
+INSERT INTO Wydzialy (NazwaSkrocona, Nazwa, NumerBudynku) VALUES
+    ('WA', 'Wydzial Architektury', 1),
+    ('WC', 'Wydzial Chemiczny', 6),
+    ('WEA', 'Wydzial Elektrotechniki i Automatyki', 12),
+    ('WETI', 'Wydzial Elektroniki, Telekomunikacji i Informatyki', 41),
+    ('WFTMS', 'Wydzial Fizyki Technicznej i Matematyki Stosowanej', 1),
+    ('WILS', 'Wydzial Inżynerii Lądowej i Środowiska', 1),
+    ('WIMS', 'Wydzial Inżynerii Mechanicznej i Okrętownictwa', 30),
+    ('WZE', 'Wydzial Zarządzania i Ekonomii', 50);
+
+
+-- Przynalezenia
+INSERT INTO Przynalezenia (NumerDS, Wydzial) VALUES
+    (1, 'WA'),
+    (2, 'WA'),
+    (3, 'WA'),
+    (4, 'WA'),
+    (5, 'WA'),
+    (6, 'WA'),
+    (2, 'WC'),
+    (4, 'WC'),
+    (8, 'WC'),
+    (3, 'WEA'),
+    (5, 'WEA'),
+    (7, 'WEA'),
+    (2, 'WETI'),
+    (4, 'WETI'),
+    (6, 'WETI'),
+    (8, 'WETI'),
+    (10, 'WETI'),
+    (5, 'WFTMS'),
+    (7, 'WFTMS'),
+    (9, 'WFTMS'),
+    (6, 'WILS'),
+    (9, 'WILS'),
+    (12, 'WILS'),
+    (5, 'WIMS'),
+    (7, 'WIMS'),
+    (9, 'WIMS'),
+    (2, 'WZE'),
+    (4, 'WZE'),
+    (8, 'WZE');
+
+
+-- Studiowania
+INSERT INTO Studiowania (NumerIndeksu, Wydzial, DataOd, Semestr, Stopien, Tryb) VALUES
+    (196634, 'WETI', '2023-10-01', 1, 1, 'Stacjonarny'),
+    (190142, 'WILS', '2023-10-01', 1, 1, 'Stacjonarny'),
+    (190142, 'WC', '2022-10-01', 3, 1, 'Niestacjonarny'),
+    (198765, 'WEA', '2023-10-01', 1, 0, 'Stacjonarny'),
+    (189876, 'WA', '2023-10-01', 1, 0, 'Stacjonarny'),
+    (181234, 'WC', '2023-10-01', 1, 1, 'Stacjonarny'),
+    (205678, 'WETI', '2021-10-01', 3, 1, 'Stacjonarny'),
+    (197890, 'WILS', '2022-10-01', 3, 1, 'Stacjonarny'),
+    (203456, 'WIMS', '2022-10-01', 3, 1, 'Stacjonarny'),
+    (203456, 'WZE', '2023-10-01', 1, 1, 'Niestacjonarny'),
+    (180123, 'WZE', '2022-10-01', 3, 1, 'Stacjonarny'),
+    (198766, 'WA', '2022-10-01', 3, 1, 'Stacjonarny'),
+    (195432, 'WETI', '2020-10-01', 5, 1, 'Stacjonarny'),
+    (174321, 'WILS', '2020-10-01', 5, 1, 'Stacjonarny'),
+    (202134, 'WILS', '2021-10-01', 5, 1, 'Stacjonarny'),
+    (199876, 'WIMS', '2021-10-01', 5, 1, 'Stacjonarny'),
+    (166543, 'WZE', '2020-10-01', 7, 1, 'Stacjonarny'),
+    (205432, 'WFTMS', '2020-10-01', 7, 1, 'Stacjonarny'),
+    (203214, 'WETI', '2020-10-01', 7, 1, 'Stacjonarny'),
+    (200987, 'WILS', '2019-10-01', 1, 2, 'Stacjonarny'),
+    (197654, 'WIMS', '2023-10-01', 1, 2, 'Stacjonarny'),
+    (204321, 'WZE', '2023-10-01', 1, 2, 'Stacjonarny'),
+    (204321, 'WZE', '2023-10-01', 1, 2, 'Niestacjonarny'),
+    (204322, 'WZE', '2022-10-01', 3, 2, 'Niestacjonarny'),
+    (204323, 'WZE', '2022-10-01', 3, 2, 'Niestacjonarny');
